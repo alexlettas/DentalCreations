@@ -1,0 +1,417 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 3.8.5.1658112919
+Updated: 2022-07-18 02:55:19
+
+*/
+a:hover, a:visited, a:link, a:active {
+
+    text-decoration: none!important;
+
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+/* phone and address styling in contact section
+*/
+.phonecontainer {  
+  padding: 10px;
+  border: 5px solid;
+  border-color: #2e6ebc;
+}
+
+.phoneicon {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.phonecontainer h3 {
+  font-weight: bold;
+  color:#2e6ebc;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.phonelink {
+  font-size: 1.5em;
+  color:  black;
+  text-align: center;
+  display: inline-block;
+  opacity: 50%;
+  width: 100%;
+  
+}
+
+.addresscontainer {  
+  padding: 10px;
+  border: 5px solid;
+  border-color: #2e6ebc;
+}
+
+.addressicon {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+}
+
+.addresscontainer h3 {
+  font-weight: bold;
+  color:#2e6ebc;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.addresslink {
+  font-size: 1.5em;
+  color:  black;
+  text-align: center;
+  display: inline-block;
+  opacity: 50%;
+  width: 100%;
+  
+}
+
+
+/* Button hover effects attempt
+*/
+
+/* Services anchor links styles 
+*/
+
+
+.zirconia-container {
+  position: relative;
+  width: 100%;
+}
+
+.zirconia-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.zirconia-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2e6ebc;
+}
+ .zirconia-container:hover .zirconia-overlay  {
+	opacity: 0.85;
+}
+
+
+.zirconia-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.emax-container {
+  position: relative;
+  width: 100%;
+}
+
+.emax-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.emax-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2e6ebc;
+}
+ .emax-container:hover .emax-overlay  {
+	opacity: 0.85;
+}
+
+
+.emax-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.mceramics-container {
+  position: relative;
+  width: 100%;
+}
+
+.mceramics-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mceramics-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2e6ebc;
+}
+ .mceramics-container:hover .mceramics-overlay  {
+	opacity: 0.85;
+}
+
+
+.mceramics-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.implants-container {
+  position: relative;
+  width: 100%;
+}
+
+.implants-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.implants-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2e6ebc;
+}
+ .implants-container:hover .implants-overlay  {
+	opacity: 0.85;
+}
+
+
+.implants-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.iscans-container {
+  position: relative;
+  width: 100%;
+}
+
+.iscans-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.iscans-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2e6ebc;
+}
+
+ .iscans-container:hover .iscans-overlay  {
+	opacity: 0.85;
+}
+
+
+.iscans-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mtechnology-container {
+  position: relative;
+  width: 100%;
+}
+
+.mtechnology-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mtechnology-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2e6ebc;
+}
+
+ .mtechnology-container:hover .mtechnology-overlay  {
+	opacity: 0.85;
+}
+
+
+.mtechnology-text {
+  color: white;
+  font-size: 29px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.dprinting-container {
+  position: relative;
+  width: 100%;
+}
+
+.dprinting-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.dprinting-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2e6ebc;
+}
+
+ .dprinting-container:hover .dprinting-overlay  {
+	opacity: 0.85;
+}
+
+
+.dprinting-text {
+  color: white;
+  font-size: 29px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.dsmiles-container {
+  position: relative;
+  width: 100%;
+}
+
+.dsmiles-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.dsmiles-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2e6ebc;
+}
+
+ .dsmiles-container:hover .dsmiles-overlay  {
+	opacity: 0.85;
+}
+
+
+.dsmiles-text {
+  color: white;
+  font-size: 29px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+

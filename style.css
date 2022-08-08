@@ -28,19 +28,14 @@ body {
   padding: 10px;
   font-family: sans-serif;
   color: #fff;
-  background: #000;
-  border-radius: 100px;
   position: sticky;
   bottom: 20px; 
-  left: 2000px;
+  left: 3000px;
   --offset: 1000px; 
   margin-top: calc(100vh + var(--offset));
-
-
   width: 45px;
-  aspect-ratio: 1;
   background: #2e6ebc;
-  border-style: 21px solid;
+  border: 1.5px solid;
   border-radius: 10px;
   border-color: white;
 }

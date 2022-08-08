@@ -10,6 +10,42 @@ Version: 3.8.5.1658112919
 Updated: 2022-07-18 02:55:19
 
 */
+
+/* back to top button */
+body {
+  display: grid;
+  grid-template-columns: auto 0px;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.top {
+  place-self: end;
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  position: sticky;
+  bottom: 20px; 
+  left: 2000px;
+  --offset: 1000px; 
+  margin-top: calc(100vh + var(--offset));
+
+
+  width: 45px;
+  aspect-ratio: 1;
+  background: #2e6ebc;
+  border-style: 21px solid;
+  border-radius: 10px;
+  border-color: white;
+}
+
+
 a:hover, a:visited, a:link, a:active {
 
     text-decoration: none!important;

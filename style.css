@@ -145,6 +145,8 @@ a:hover, a:visited, a:link, a:active {
 }
  .zirconia-container:hover .zirconia-overlay  {
 	opacity: 0.85;
+  border: 5px solid;
+  border-color: white;
 }
 
 
@@ -185,6 +187,8 @@ a:hover, a:visited, a:link, a:active {
 }
  .emax-container:hover .emax-overlay  {
 	opacity: 0.85;
+  border: 5px solid;
+  border-color: white;
 }
 
 
@@ -226,6 +230,8 @@ a:hover, a:visited, a:link, a:active {
 }
  .mceramics-container:hover .mceramics-overlay  {
 	opacity: 0.85;
+  border: 5px solid;
+  border-color: white;
 }
 
 
@@ -267,6 +273,8 @@ a:hover, a:visited, a:link, a:active {
 }
  .implants-container:hover .implants-overlay  {
 	opacity: 0.85;
+  border: 5px solid;
+  border-color: white;
 }
 
 
@@ -308,6 +316,8 @@ a:hover, a:visited, a:link, a:active {
 
  .iscans-container:hover .iscans-overlay  {
 	opacity: 0.85;
+  border: 5px solid;
+  border-color: white;
 }
 
 
@@ -349,12 +359,14 @@ a:hover, a:visited, a:link, a:active {
 
  .mtechnology-container:hover .mtechnology-overlay  {
 	opacity: 0.85;
+  border: 5px solid;
+  border-color: white;
 }
 
 
 .mtechnology-text {
   color: white;
-  font-size: 29px;
+  font-size: 28px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -390,6 +402,8 @@ a:hover, a:visited, a:link, a:active {
 
  .dprinting-container:hover .dprinting-overlay  {
 	opacity: 0.85;
+  border: 5px solid;
+  border-color: white;
 }
 
 
@@ -431,6 +445,8 @@ a:hover, a:visited, a:link, a:active {
 
  .dsmiles-container:hover .dsmiles-overlay  {
 	opacity: 0.85;
+  border: 5px solid;
+  border-color: white;
 }
 
 

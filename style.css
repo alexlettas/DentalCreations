@@ -24,20 +24,24 @@ body {
 
 .top {
   place-self: end;
-  text-decoration: none;
-  padding: 10px;
-  font-family: sans-serif;
-  color: #fff;
+  float:right;
+  padding: 25px;
   position: sticky;
   bottom: 20px; 
-  left: 3000px;
-  --offset: 1000px; 
+  --offset: 1000px;
   margin-top: calc(100vh + var(--offset));
-  width: 45px;
+  width: 175px;
+  height: 80px;
+
+  /* Visual styling */
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
   background: #2e6ebc;
-  border: 1.5px solid;
   border-radius: 10px;
-  border-color: white;
+  white-space: nowrap;
+  
 }
 
 

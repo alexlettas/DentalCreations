@@ -22,18 +22,19 @@ body {
   scroll-behavior: smooth;
 }
 
-.top {
-  place-self: end;
-  float:right;
-  padding: 25px;
+/* .top {
+  --offset: 50px; 
   position: sticky;
   bottom: 20px; 
-  --offset: 1000px;
-  margin-top: calc(100vh + var(--offset));
-  width: 175px;
+  place-self: end;
+  padding: 25px;
+  margin-right: 10px;
+  /* float:right; 
+  margin-top: calc(100vh + var(--offset)); 
+  width: 150px; 
   height: 80px;
 
-  /* Visual styling */
+
   text-decoration: none;
   text-align: center;
   font-family: sans-serif;
@@ -42,7 +43,29 @@ body {
   border-radius: 10px;
   white-space: nowrap;
   
+} */
+
+.top:visited {
+color: white;
 }
+
+/* Back to top Template */
+.top {
+  --offset: 50px; 
+  position: sticky;
+  bottom: 20px;      
+  margin-right: 10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+} 
 
 
 a:hover, a:visited, a:link, a:active {
@@ -119,8 +142,6 @@ a:hover, a:visited, a:link, a:active {
 }
 
 
-/* Button hover effects attempt
-*/
 
 /* Services anchor links styles 
 */
@@ -514,6 +535,8 @@ a:hover, a:visited, a:link, a:active {
   color: black;
 }
 */
+
+/*Horizontal line styling*/
 .receptionemail a {
   color: white;
   display: inline-block;
@@ -558,4 +581,79 @@ a:hover, a:visited, a:link, a:active {
   transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.urgent-contact{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.urgent-contact a {
+  font-size: 1.5em;
+  color: #2e6ebc;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.urgent-contact a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2e6ebc;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.urgent-contact a:hover, .urgent-contact a:focus, .urgent-contact a:active{
+  color: white;
+}
+
+.urgent-contact a:hover::before, .urgent-contact a:focus:before, .urgent-contact a:active:before{
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+.lab-button{
+  font-size: 1em;
+  color:  black;
+  text-align: center;
+  opacity: 100%;
+  width: 100%;
+  display: inline;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.lab-button:hover, .lab-button:focus, .lab-button:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #2e6ebc;
 }
